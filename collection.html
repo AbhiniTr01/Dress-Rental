@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dress Collection | Style Loop</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-white sticky-top shadow-sm">
+  <div class="container">
+    <a class="navbar-brand logo" href="index.html">Style Loop</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto align-items-lg-center">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link active" href="collection.html">Collection</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="cart.html">Cart <span id="cartCount">0</span></a></li>
+        <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+        <li class="nav-item"><a class="btn btn-dark" href="signup.html">Sign Up</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="page-header text-center">
+  <div class="container">
+    <p class="eyebrow">FIND YOUR PERFECT LOOK</p>
+    <h1>Our Dress Collection</h1>
+    <p>Rent your favourite styles for your special occasions.</p>
+  </div>
+</header>
+
+<main class="container section-space">
+  <div class="row g-3 mb-4">
+    <div class="col-md-6">
+      <input type="search" id="dressSearch" class="form-control"
+        placeholder="Search by dress name or category...">
+    </div>
+    <div class="col-md-6">
+      <select id="categoryFilter" class="form-select">
+        <option value="All">All Categories</option>
+        <option value="Wedding">Wedding</option>
+        <option value="Party">Party</option>
+        <option value="Traditional">Traditional</option>
+        <option value="Casual">Casual</option>
+      </select>
+    </div>
+  </div>
+  <div class="row g-4" id="dressCollection"></div>
+  <p id="noResults" class="text-center d-none py-5">No dresses found.</p>
+</main>
+
+<footer class="footer">
+  <div class="container text-center">
+    <h3>Style Loop</h3>
+    <p>Beautiful outfits. Memorable moments.</p>
+    <a href="contact.html">Contact Us</a>
+    <p class="small mt-3">© 2026 Style Loop</p>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

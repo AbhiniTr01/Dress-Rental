@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Style Loop | Dress Rental</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+  <div class="container">
+    <a class="navbar-brand logo" href="index.html">Style Loop</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto align-items-lg-center">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="collection.html">Collection</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="cart.html">Cart <span id="cartCount">0</span></a></li>
+        <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+        <li class="nav-item ms-lg-2"><a class="btn btn-dark" href="signup.html">Sign Up</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="container">
+    <div class="row align-items-center g-4">
+      <div class="col-lg-6">
+        <p class="eyebrow">YOUR STYLE, YOUR MOMENT</p>
+        <h1>Rent the dress.<br><span>Own the moment.</span></h1>
+        <p class="lead-text">Discover beautiful dresses for weddings, parties and every special occasion without spending a fortune.</p>
+        <a href="collection.html" class="btn btn-dark btn-lg mt-3">Explore Collection</a>
+        <a href="signup.html" class="btn btn-outline-dark btn-lg mt-3">Join Us</a>
+      </div>
+      <div class="col-lg-6">
+        <img class="hero-img"
+          src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=1000&q=85"
+          alt="Fashion dress">
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- Featured Dresses Section -->
+<section class="featured-section py-5">
+    <div class="container">
+
+        <!-- Section Heading -->
+        <div class="text-center mb-5">
+            <p class="featured-eyebrow">EXPLORE OUR STYLE</p>
+
+            <h2 class="featured-title">Featured Dresses</h2>
+
+            <p class="text-muted">
+                Find your perfect outfit for every occasion.
+            </p>
+        </div>
+
+        <!-- Dress Cards -->
+        <div class="row g-4">
+
+            <!-- Dress 1 -->
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="card featured-card h-100">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=600&q=80"
+                        class="card-img-top featured-image"
+                        alt="Elegant Party Dress">
+
+                    <div class="card-body text-center">
+                        <h5>Elegant Party Dress</h5>
+                        <p class="dress-price">₹1,200 / day</p>
+
+                        <a href="dress%20details.html?id=2"
+                           class="btn btn-dark w-100">
+                            View Details
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Dress 2 -->
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="card featured-card h-100">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=600&q=80"
+                        class="card-img-top featured-image"
+                        alt="Elegant Evening Gown">
+
+                    <div class="card-body text-center">
+                        <h5>Elegant Evening Gown</h5>
+                        <p class="dress-price">₹1,500 / day</p>
+
+                        <a href="dress%20details.html?id=1"
+                           class="btn btn-dark w-100">
+                            View Details
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Dress 3 -->
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="card featured-card h-100">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=600&q=80"
+                        class="card-img-top featured-image"
+                        alt="Traditional Outfit">
+
+                    <div class="card-body text-center">
+                        <h5>Traditional Collection</h5>
+                        <p class="dress-price">₹1,000 / day</p>
+
+                        <a href="dress%20details.html?id=3"
+                           class="btn btn-dark w-100">
+                            View Details
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Dress 4 -->
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="card featured-card h-100">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1596783074918-c84cb06531ca?auto=format&fit=crop&w=600&q=80"
+                        class="card-img-top featured-image"
+                        alt="Designer Dress">
+
+                    <div class="card-body text-center">
+                        <h5>Designer Dress</h5>
+                        <p class="dress-price">₹900 / day</p>
+
+                        <a href="dress%20details.html?id=4"
+                           class="btn btn-dark w-100">
+                            View Details
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- View All Button -->
+        <div class="text-center mt-5">
+            <a href="collection.html"
+               class="btn btn-dark px-4 py-2">
+                View All Dresses
+            </a>
+        </div>
+
+    </div>
+</section>
+ 
+
+<section class="benefits section-space">
+  <div class="container">
+    <div class="row text-center g-4">
+      <div class="col-6 col-lg-3"><h3>✦</h3><h6>Premium Styles</h6></div>
+      <div class="col-6 col-lg-3"><h3>₹</h3><h6>Affordable Rentals</h6></div>
+      <div class="col-6 col-lg-3"><h3>♡</h3><h6>Beautiful Outfits</h6></div>
+      <div class="col-6 col-lg-3"><h3>↻</h3><h6>Easy Returns</h6></div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container text-center">
+    <h3>Style Loop</h3>
+    <p>Beautiful outfits. Memorable moments.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="collection.html">Collection</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <p class="small mt-4">©️ 2026 Style Loop |</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+<script>
+  renderFeaturedDresses();
+  updateCartCount();
+</script>
+</body>
+</html>
